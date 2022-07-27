@@ -35,7 +35,8 @@ function startGame() {
         alert("The computer chose " + computerChoice + ". You LOST!")
         losses++;
     } else {
-        alert("Error. Please refresh the page!")
+        alert("Stop trying to cheat the system & enter a valid choice 😐");
+        startGame();
     }
 
     alert("\nUser Stats" + "\n\nWins: " + wins + "\nLosses: " + losses + "\nTies: " + ties);
